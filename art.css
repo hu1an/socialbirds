@@ -1,0 +1,65 @@
+.n{
+       display: flex;
+       justify-content:space-between;
+       flex-direction: row;
+       align-items: center;
+   
+       }
+       .logo{
+      display: flex;
+       border-spacing: 10px;
+       border-radius: 15px;
+       justify-items: center;
+       }
+       .search{
+   height: 30px;
+   width: 500px;
+   background-color: rgb(224, 224, 224);
+   border-radius: 15px;
+    }
+           .sline{
+    display: flex;
+    height: 1px;
+    width: 450px;
+    margin: 25px;
+   background-color: black;
+    flex-direction: row;
+     align-items: flex-end;
+    }
+           .mep{
+    display: flex;
+   height: 45px;
+   width: 45px;
+   margin: 9px;
+   background-color: rgb(105, 231, 231);
+   border-radius: 25px;
+   }                 
+     .me{
+    height: 60px;
+   width: 200px;
+   background-color: rgb(224, 224, 224);
+   border-radius: 30px;
+    }    
+    .backcolor{
+   background-color: rgb(208, 255, 255);
+   
+    }               
+.textdiv{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 10px;
+}
+.textimg{
+       display: flex;
+       height: 650px;
+       width: 1000px;
+       border: 55px;
+   border-radius: 15px;
+   justify-content: space-around;
+   margin: 20px;
+}
+.text1{
+display: flex;
+margin: 10px;
+}
