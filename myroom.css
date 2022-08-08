@@ -17,6 +17,11 @@ height: 30px;
 width: 500px;
 background-color: rgb(224, 224, 224);
 border-radius: 15px;
+display: flex;
+width: 60vw;
+align-items: center;
+justify-content: space-around;
+margin: 20px;
  }
         .sline{
  display: flex;
@@ -29,8 +34,8 @@ background-color: black;
  }
         .mep{
  display: flex;
-height: 45px;
-width: 45px;
+height: 5vh;
+width: 5vw;
 margin: 9px;
 background-color: rgb(105, 231, 231);
 border-radius: 25px;
@@ -65,24 +70,23 @@ align-items: center;
 }
 .si{
     display: flex;
-    background-color: rgb(240, 240, 240);
-    height: 350px;
-    width: 500px;
+    height: 60vh;
+    width: 60vw;
     border: 55px;
-    margin: 74px;
+    margin: 15px;
 border-radius: 15px;
-justify-content: flex-start;
 align-items: flex-start;
 }
 .logo{
 margin: 15px;
 }
 .me{
-height: 60px;
-width: 200px;
+height: 10vh;
+width: 15vw;
 background-color: rgb(224, 224, 224);
 margin: 15px;
 border-radius: 30px;
+flex-direction: column;
 }
 .box{
 display: flex;
@@ -96,23 +100,8 @@ border-radius: 15px;
 .bottom{
 display: flex;
 justify-content: flex-end;
+}
 
-}
-.search{
-height: 30px;
-width: 500px;
-background-color: rgb(224, 224, 224);
-border-radius: 15px;
-}
-.sline{
-    display: flex;
-height: 1px;
-width: 450px;
-background-color: black;
-margin: 25px;
-flex-direction: row;
-align-items: flex-end;
-}
 .singtag{
 display: flex;
 justify-content: space-around;
@@ -135,11 +124,11 @@ background-color: aqua;
 border-radius: 25px;
 }
 .pox1{
-    height: 260px 30vw;
-    width: 200px;
+    height: 20vw;
+    width: 15vw;
     background-color: antiquewhite;
     border-radius: 20px;
-    margin: 15px;
+
 
 }
      .gar{
@@ -164,11 +153,13 @@ border-radius: 25px;
 display: flex;
 
 }
-input :focus{
-    width: 500px;
-    height: 30px;
-outline: rgb(224, 224, 224);
-border-radius: 2px;
+
+input{
+background-color: rgb(224, 224, 224);
+border: 0pt;
 margin: 8px;
-outline: n;
+width: 55vw;
+}
+body{
+    background-color: aqua;
 }
