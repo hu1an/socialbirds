@@ -1,65 +1,61 @@
-.n{
+.search{
+       height: 30px;
+       background-color: rgb(224, 224, 224);
+       border-radius: 15px;
+       display: flex;
+       width: 40vw;
+       align-items: center;
+       justify-content: space-around;
+       margin: 20px;
+        }  
+  
+   .n{
        display: flex;
        justify-content:space-between;
        flex-direction: row;
        align-items: center;
-   
+       }    
+   .logo{
+       margin: 15px;
        }
-       .logo{
-      display: flex;
-       border-spacing: 10px;
-       border-radius: 15px;
-       justify-items: center;
-       }
-       .search{
-   height: 30px;
-   width: 500px;
-   background-color: rgb(224, 224, 224);
-   border-radius: 15px;
-    }
-           .sline{
-    display: flex;
-    height: 1px;
-    width: 450px;
-    margin: 25px;
-   background-color: black;
-    flex-direction: row;
-     align-items: flex-end;
-    }
-           .mep{
-    display: flex;
-   height: 45px;
-   width: 45px;
-   margin: 9px;
-   background-color: rgb(105, 231, 231);
-   border-radius: 25px;
-   }                 
-     .me{
-    height: 60px;
-   width: 200px;
-   background-color: rgb(224, 224, 224);
-   border-radius: 30px;
-    }    
-    .backcolor{
-   background-color: rgb(208, 255, 255);
-   
-    }               
-.textdiv{
-display: flex;
-justify-content: center;
-flex-direction: column;
-margin: 10px;
-}
-.textimg{
+
+   .mep{
        display: flex;
-       height: 650px;
-       width: 1000px;
-       border: 55px;
-   border-radius: 15px;
-   justify-content: space-around;
-   margin: 20px;
-}
-.text1{
+       height: 65px;
+       width: 65px;
+       margin: 9px;
+       background-color: aqua;
+       border-radius: 50px;
+       }
+       
+       .text1{
+         display: flex;
+       }
+   
+   input{
+       background-color: rgb(224, 224, 224);
+       border: 0pt;
+       margin: 8px;
+       width: 55vw;
+       }
+   body{
+       background-color: rgb(230, 255, 255) }
+
+   img{
+   
+       display: flex;
+      align-items: center;
+       border-radius: 20px;
+       margin: 25px;
+    }
+   .m{
 display: flex;
-margin: 10px;
-}
+flex-direction: row;
+
+   }
+   .doc{
+color: gray;
+
+   }
+   
+   

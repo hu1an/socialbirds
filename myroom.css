@@ -14,11 +14,10 @@
     }
     .search{
 height: 30px;
-width: 500px;
 background-color: rgb(224, 224, 224);
 border-radius: 15px;
 display: flex;
-width: 60vw;
+width: 40vw;
 align-items: center;
 justify-content: space-around;
 margin: 20px;
@@ -39,13 +38,8 @@ width: 5vw;
 margin: 9px;
 background-color: rgb(105, 231, 231);
 border-radius: 25px;
+
 }                 
-  .me{
- height: 60px;
-width: 200px;
-background-color: rgb(224, 224, 224);
-border-radius: 30px;
- }    
  .backcolor{
 background-color: rgb(208, 255, 255);
 
@@ -73,35 +67,13 @@ align-items: center;
     height: 60vh;
     width: 60vw;
     border: 55px;
-    margin: 15px;
 border-radius: 15px;
-align-items: flex-start;
+justify-content: space-around;
+flex-wrap: wrap;
 }
 .logo{
 margin: 15px;
 }
-.me{
-height: 10vh;
-width: 15vw;
-background-color: rgb(224, 224, 224);
-margin: 15px;
-border-radius: 30px;
-flex-direction: column;
-}
-.box{
-display: flex;
-background-color: rgb(05, 37, 42);
-width: 200px;
-height: 350px;
-border: 55px;
-margin: 74px;
-border-radius: 15px;
-}
-.bottom{
-display: flex;
-justify-content: flex-end;
-}
-
 .singtag{
 display: flex;
 justify-content: space-around;
@@ -117,33 +89,34 @@ align-items: center;
 }
 .mep{
 display: flex;
-height: 45px;
-width: 45px;
+height: 65px;
+width: 65px;
 margin: 9px;
 background-color: aqua;
-border-radius: 25px;
+border-radius: 50px;
 }
 .pox1{
-    height: 20vw;
+    height: 50px;
     width: 15vw;
-    background-color: antiquewhite;
+    background-color: 276678;
     border-radius: 20px;
-
 
 }
      .gar{
     border-radius: 15px;
-    align-items: flex-start;
+    align-items: flex-start;1687A7
     justify-content: space-around;
      }
      
     
           .imgl{
     display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    margin: 30px;
-    flex-direction: column;
+    border-radius: 5px;
+    width: 18vw;
+     height: 50vh;
+     background-color: white;
+     flex-direction: column;
+
           }      
           .text1{
             display: flex;
@@ -161,5 +134,33 @@ margin: 8px;
 width: 55vw;
 }
 body{
-    background-color: aqua;
+    background-color: rgb(230, 255, 255);
+}
+ img{
+
+    display: flex;
+   align-items: center;
+    border-radius: 20px;
+    margin: 25px;
+ }
+ .text2{
+display: flex;
+margin: 5px;
+ }
+
+.textimg{
+    display: flex;
+justify-content: space-around;
+}
+.chat{
+display: flex;
+background-color: rgb(207, 207, 207);
+width: 20vw;
+height: 60vh;
+}
+.kl{
+background-color: rgb(235, 235, 235);
+height: 70vh;
+width: 20vw;
+border-radius: 15px;
 }
