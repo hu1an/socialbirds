@@ -1,6 +1,7 @@
 body{
-    background-color: #def2fd;
+    background-color: #DFEFF0;
 }
+
 .A3{
     display: flex;
     flex-direction: row;
@@ -10,8 +11,44 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
+.A1{
+    font-size: 2.5vw;
+}
+.a21{
+    margin: 1.5vw;
+}
+.a22{
+    margin: 1.5vw;
+}
+.A3{
+    display: flex;
+
+    width: 50vw;
+}
+.a31{
+    margin: 1vw;
+    font-size: 3vw;
+}
+.a32{
+    margin: 1vw;
+    font-size: 3vw;
+}
+.A4{
+    display: flex;
+    margin: 2vw;
+    border-radius: 10vw;
+}
+
 .A5{
     display: flex;
     flex-direction: row;
+}
+h1{
+    color: #557C93;
+    margin: 2vw;
+}
+::placeholder{
+    color: rgb(224, 224, 224)
 }
