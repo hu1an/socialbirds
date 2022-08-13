@@ -1,32 +1,36 @@
 .search{
-       height: 30px;
-       background-color: rgb(224, 224, 224);
-       border-radius: 15px;
-       display: flex;
-       width: 40vw;
-       align-items: center;
-       justify-content: space-around;
-       margin: 20px;
-        }  
+    height: 7vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+     }
   
-   .n{
-       display: flex;
-       justify-content:space-between;
-       flex-direction: row;
-       align-items: center;
-       }    
-   .logo{
-       margin: 15px;
-       }
-
-   .mep{
-       display: flex;
-       height: 65px;
-       width: 65px;
-       margin: 9px;
-       background-color: aqua;
-       border-radius: 50px;
-       }
+        .n{
+            display: flex;
+            justify-content:space-between;
+            flex-direction: row;
+            align-items: center;
+        
+            }    
+            .logo{
+                display: flex;
+                 border-spacing: 10px;
+                 border-radius: 15px;
+                 justify-items: center;
+                 margin: 50px;
+                 }
+                 .mep{
+                    display: flex;
+                    height: 65px;
+                    width: 65px;
+                    margin: 9px;
+                    background-color: aqua;
+                    border-radius: 50px;
+                    }
        
        .text1{
          display: flex;
@@ -50,12 +54,47 @@
     }
    .m{
 display: flex;
-flex-direction: row;
-
+background-color: white;
+justify-content: space-around;
    }
    .doc{
 color: gray;
 
    }
    
-   
+   .more{
+display: flex;
+height: 72vh;
+width: 18vw;
+background-color: gray;
+margin: 30px;
+border-radius: 20px;
+   }
+   .t{
+display: flex;
+
+   }
+   .back{
+    display: flex;
+   background-color: white;
+   width: 8vw;
+   height: 18vh;
+   margin: 5px;
+   border-radius: 60px;
+   justify-content: center;
+   align-items: center;
+   }
+   .placeholder{
+    display: flex;
+    margin: 5px;
+}
+.t{
+display: flex;
+width: 15vw;
+height: 20vh;
+background-color: white;
+border-radius: 15px;
+justify-content: center;
+flex-direction: row;
+margin: 20px;
+}
