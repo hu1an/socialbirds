@@ -48,14 +48,14 @@
         
     .mep{
     display: flex;
-    height: 65px;
-    width: 65px;
+    height: 10vh;
+    width: 5vw;
     margin: 9px;
     background-color: aqua;
     border-radius: 50px;
     }
     .pox1{
-        height: 50px;
+        height: 20vh;
         width: 15vw;
         background-color: 276678;
         border-radius: 20px;

@@ -25,8 +25,8 @@
                  }
                  .mep{
                     display: flex;
-                    height: 65px;
-                    width: 65px;
+                    width: 5vw;
+                    height: 10vh;
                     margin: 9px;
                     background-color: aqua;
                     border-radius: 50px;
