@@ -4,46 +4,51 @@ body{
 .backcolor{
   background-color: #DFEFF0
 }          
-    .n{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    align-items: center;
-    
-    }
-    .logo{
-    display: flex;
-    border-spacing: 10px;
-    border-radius: 15px;
-    justify-items: center;
-    margin: 50px;
-    }
-    .search{
-    height: 7vh;
-    background-color: rgb(224, 224, 224);
-    border-radius: 20px;
-    display: flex;
-    width: 40vw;
-    align-items: center;
-    justify-content: space-around;
-    margin: 20px;
-    }
-     
-           
-    .singin{
-    display: flex;
-    flex-direction: column;
-    }
-    
-    
-    .mep{
-    display: flex;
-    height: 10vh;
-    width: 5vw;
-    margin: 9px;
-    background-color: aqua;
-    border-radius: 50px;
-    }
+.n{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+  .logo{
+ display: flex;
+  border-spacing: 15px;
+  border-radius: 15px;
+  justify-items: center;
+  margin: 50px;
+  }
+  h1{
+  font-size: 2vw;
+  }
+  .about{
+      margin-right: 1.5vw;
+  }
+  .search{
+  height: 7vh;
+  background-color: rgb(224, 224, 224);
+  border-radius: 20px;
+  display: flex;
+  width: 40vw;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  }
+  .message{
+      display: flex;
+      margin-left: 5vw;
+  }
+  .mep{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 6vw;
+      width: 6vw;
+      margin: 2vw;
+      background-color: #66BFBF;
+      border-radius: 50px;
+  }
     
     .pox1{
     height: 20vh;
@@ -64,16 +69,7 @@ body{
     display: flex;
     margin: 5px;
     }
-    .back{
-    display: flex;
-    background-color: white;
-    width: 8vw;
-    height: 18vh;
-    margin: 5px;
-    border-radius: 60px;
-    justify-content: center;
-    align-items: center;
-    }
+    
     .textdiv{
     display: flex;
     background-color: white;

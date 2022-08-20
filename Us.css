@@ -33,6 +33,10 @@ h1{
     width:100vw;
     margin-top: 10vh;
 }
+.ins2{
+    display: flex;
+    justify-content: center;
+}
 
 p{
     text-align: center;
