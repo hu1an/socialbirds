@@ -14,13 +14,22 @@ body{
     justify-content: center;
 }
 .A1{
+    display: flex;
+    flex-direction: row;
     font-size: 2.5vw;
+    width: 95vw;
+    height: 10vw;
+}
+.a11{
+    margin-right: 28vw;
 }
 .a21{
     margin: 1.5vw;
+    padding: 1vw;
 }
 .a22{
     margin: 1.5vw;
+    padding: 1vw;
 }
 .A3{
     display: flex;
@@ -29,21 +38,48 @@ body{
 }
 .a31{
     margin: 1vw;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .a32{
     margin: 1vw;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .A4{
     display: flex;
+    justify-content: center;
+    text-align: center;
     margin: 2vw;
-    border-radius: 10vw;
+    border-radius: 40vw;
+    width: 15vw;
+    
+    
 }
 
 .A5{
     display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    font-size: 2vw;
+    width: 50vw;
+    height: 10vw;
+}
+.google{
+    display: flex;
     flex-direction: row;
+    margin: 2vw;
+    
+    
+}
+.esvel{
+    display: flex;
+    margin: 2vw;
+    align-items: center;
+   
+}
+.fb{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
 }
 h1{
     color: #557C93;
