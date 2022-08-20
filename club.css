@@ -1,21 +1,24 @@
- .backcolor{
-  background-color: rgb(208, 255, 255);
-    }          
+body{
+    background-color: #DFEFF0;
+}
+.backcolor{
+  background-color: #DFEFF0
+}          
     .n{
-        display: flex;
-        justify-content:space-between;
-        flex-direction: row;
-        align-items: center;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
     
-        }
-        .logo{
-       display: flex;
-        border-spacing: 10px;
-        border-radius: 15px;
-        justify-items: center;
-        margin: 50px;
-        }
-        .search{
+    }
+    .logo{
+    display: flex;
+    border-spacing: 10px;
+    border-radius: 15px;
+    justify-items: center;
+    margin: 50px;
+    }
+    .search{
     height: 7vh;
     background-color: rgb(224, 224, 224);
     border-radius: 20px;
@@ -24,28 +27,15 @@
     align-items: center;
     justify-content: space-around;
     margin: 20px;
-     }
+    }
      
-     .backcolor{
-    background-color: rgb(208, 255, 255);
-    
-     }              
-     .singin{
-        display: flex;
-        flex-direction: column;
+           
+    .singin{
+    display: flex;
+    flex-direction: column;
     }
-    .logo{
-        display: flex;
-    border-spacing: 10px;
-    border-radius: 15px;
-    margin: 30px;
-    justify-items: center;
     
-    }
-    .logo{
-        margin: 15px;
-        }
-        
+    
     .mep{
     display: flex;
     height: 10vh;
@@ -54,12 +44,12 @@
     background-color: aqua;
     border-radius: 50px;
     }
-    .pox1{
-        height: 20vh;
-        width: 15vw;
-        background-color: 276678;
-        border-radius: 20px;
     
+    .pox1{
+    height: 20vh;
+    width: 15vw;
+    background-color: 276678;
+    border-radius: 20px;
     }
     
     input{
@@ -68,16 +58,14 @@
     margin: 8px;
     width: 55vw;
     }
-    body{
-        background-color: rgb(230, 255, 255);
-    }
+    
    
     .placeholder{
-        display: flex;
-        margin: 5px;
+    display: flex;
+    margin: 5px;
     }
     .back{
-     display: flex;
+    display: flex;
     background-color: white;
     width: 8vw;
     height: 18vh;
@@ -87,14 +75,11 @@
     align-items: center;
     }
     .textdiv{
-display: flex;
-background-color: white;
-height: 90vh;
-width: 97vw;
-border-radius: 20px;
- margin: 5px;
+    display: flex;
+    background-color: white;
+    height: 90vh;
+    width: 97vw;
+    border-radius: 20px;
+    margin: 5px;
     }
-    .chato{
-display: flex;
-
-    }
+    

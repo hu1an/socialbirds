@@ -1,81 +1,76 @@
-.search{
+body{
+   background-color: #DFEFF0 }
+
+   .search{
     height: 7vh;
-    background-color: rgb(224, 224, 224);
+    background-color:rgb(224, 224, 224);
     border-radius: 20px;
     display: flex;
     width: 40vw;
     align-items: center;
     justify-content: space-around;
     margin: 20px;
-     }
+   }
   
-        .n{
-            display: flex;
-            justify-content:space-between;
-            flex-direction: row;
-            align-items: center;
+.n{
+   display: flex;
+   justify-content:space-between;
+   flex-direction: row;
+   align-items: center;
         
-            }    
-            .logo{
-                display: flex;
-                 border-spacing: 10px;
-                 border-radius: 15px;
-                 justify-items: center;
-                 margin: 50px;
-                 }
-                 .mep{
-                    display: flex;
-                    width: 5vw;
-                    height: 10vh;
-                    margin: 9px;
-                    background-color: aqua;
-                    border-radius: 50px;
-                    }
-       
-       .text1{
-         display: flex;
-       }
+}    
+   .logo{
+   display: flex;
+   border-spacing: 10px;
+   border-radius: 15px;
+   justify-items: center;
+   margin: 50px;
+   }
+   .mep{
+   display: flex;
+   width: 5vw;
+   height: 10vh;
+   margin: 9px;
+   background-color: aqua;
+   border-radius: 50px;
+   }
    
    input{
-       background-color: rgb(224, 224, 224);
-       border: 0pt;
-       margin: 8px;
-       width: 55vw;
-       }
-   body{
-       background-color: rgb(230, 255, 255) }
+   background-color: rgb(224, 224, 224);
+   border: 0pt;
+   margin: 8px;
+   width: 55vw;
+   }
+   
 
    img{
    
-       display: flex;
-      align-items: center;
-       border-radius: 20px;
-       margin: 25px;
-    }
+   display: flex;
+   align-items: center;
+   border-radius: 20px;
+   margin: 25px;
+   }
    .m{
-display: flex;
-background-color: white;
-justify-content: space-around;
+   display: flex;
+   background-color: white;
+   justify-content: space-around;
    }
    .doc{
-color: gray;
-
+   color: gray;
    }
    
    .more{
-display: flex;
-height: 72vh;
-width: 18vw;
-background-color: gray;
-margin: 30px;
-border-radius: 20px;
+   display: flex;
+   height: 72vh;
+   width: 18vw;
+   background-color: gray;
+   margin: 30px;
+   border-radius: 20px;
    }
-   .t{
-display: flex;
+   
 
-   }
    .back{
-    display: flex;
+   display: flex;
    background-color: white;
    width: 8vw;
    height: 18vh;
@@ -85,16 +80,16 @@ display: flex;
    align-items: center;
    }
    .placeholder{
-    display: flex;
-    margin: 5px;
-}
-.t{
-display: flex;
-width: 15vw;
-height: 20vh;
-background-color: white;
-border-radius: 15px;
-justify-content: center;
-flex-direction: row;
-margin: 20px;
-}
+   display: flex;
+   margin: 5px;
+   }
+   .t{
+   display: flex;
+   width: 15vw;
+   height: 20vh;
+   background-color: white;
+   border-radius: 15px;
+   justify-content: center;
+   flex-direction: row;
+   margin: 20px;
+   }

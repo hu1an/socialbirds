@@ -57,7 +57,7 @@ justify-content: space-around;
 
 
 
-        .sline{
+.sline{
  display: flex;
  height: 1vh;
  width: 30vw;
@@ -105,29 +105,22 @@ align-items: center;
     border-radius: 20px;
 
 }
-     .gar{
+    .gar{
     border-radius: 15px;
-    align-items: flex-start;1687A7
+    align-items: flex-start;
     justify-content: space-around;
-     }
+ }
      
     
-          .imgl{
+    .imgl{
     display: flex;
     width: 18vw;
-     height: 50vh;
-     background-color: white;
-     flex-direction: column;
+    height: 50vh;
+    background-color: white;
+    flex-direction: column;
 
-          }      
-          .text1{
-            display: flex;
-           
-          }
-.text2{
-display: flex;
-
-}
+    }      
+          
 
 input{
 background-color: rgb(224, 224, 224);
@@ -136,17 +129,17 @@ margin: 8px;
 width: 55vw;
 }
 
- img{
+img{
 
     display: flex;
    align-items: center;
    
     margin: 25px;
- }
- .text2{
+}
+.text2{
 display: flex;
 margin: 5px;
- }
+}
 
 
 .chat{
@@ -190,15 +183,7 @@ img{
     display: flex;
     margin: 5px;
 }
-.back{
- display: flex;
-width: 8vw;
-height: 18vh;
-margin: 5px;
-border-radius: 60px;
-justify-content: center;
-align-items: center;
-}
+
 
 
 
