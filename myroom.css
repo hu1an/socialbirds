@@ -1,12 +1,16 @@
+body{
+    background-color: #DFEFF0;
+}
 
-   
+
 .n{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
     align-items: center;
 
-    }
+}
+
     .logo{
    display: flex;
     border-spacing: 15px;
@@ -14,17 +18,46 @@
     justify-items: center;
     margin: 50px;
     }
+    h1{
+    font-size: 2vw;
+    }
+    .about{
+        margin-right: 1.5vw;
+    }
     .search{
-height: 7vh;
-background-color: rgb(224, 224, 224);
-border-radius: 20px;
+    height: 7vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    }
+    .message{
+        display: flex;
+        margin-left: 5vw;
+    }
+    .mep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vw;
+        width: 6vw;
+        margin: 2vw;
+        background-color: #66BFBF;
+        border-radius: 50px;
+    }
+ .medeelel{
 display: flex;
-width: 40vw;
-align-items: center;
 justify-content: space-around;
-margin: 20px;
- }
-        .sline{
+}
+
+
+
+
+
+.sline{
  display: flex;
  height: 1vh;
  width: 30vw;
@@ -34,28 +67,13 @@ background-color: black;
   align-items: flex-end;
  }
           
- .backcolor{
-background-color: rgb(208, 255, 255);
-
- }              
+            
  .singin{
     display: flex;
     flex-direction: column;
 }
-.logo{
-    display: flex;
-border-spacing: 10px;
-border-radius: 15px;
-margin: 30px;
-justify-items: center;
 
-}
-.n{
-display: flex;
-justify-content:space-between;
-flex-direction: row;
-align-items: center;
-}
+
 .si{
     display: flex;
     height: 60vh;
@@ -65,9 +83,7 @@ border-radius: 15px;
 justify-content: space-around;
 flex-wrap: wrap;
 }
-.logo{
-margin: 15px;
-}
+
 .singtag{
 display: flex;
 justify-content: space-around;
@@ -81,14 +97,7 @@ align-items: center;
     background-color: rgb(148, 148, 148);
     border-radius: 20px;
 }
-.mep{
-display: flex;
-height: 65px;
-width: 65px;
-margin: 9px;
-background-color: aqua;
-border-radius: 50px;
-}
+
 .pox1{
     height: 15vh;
     width: 15vw;
@@ -96,29 +105,22 @@ border-radius: 50px;
     border-radius: 20px;
 
 }
-     .gar{
+    .gar{
     border-radius: 15px;
-    align-items: flex-start;1687A7
+    align-items: flex-start;
     justify-content: space-around;
-     }
+ }
      
     
-          .imgl{
+    .imgl{
     display: flex;
     width: 18vw;
-     height: 50vh;
-     background-color: white;
-     flex-direction: column;
+    height: 50vh;
+    background-color: white;
+    flex-direction: column;
 
-          }      
-          .text1{
-            display: flex;
-           
-          }
-.text2{
-display: flex;
-
-}
+    }      
+          
 
 input{
 background-color: rgb(224, 224, 224);
@@ -126,25 +128,20 @@ border: 0pt;
 margin: 8px;
 width: 55vw;
 }
-body{
-    background-color: rgb(230, 255, 255);
-}
- img{
+
+img{
 
     display: flex;
    align-items: center;
    
     margin: 25px;
- }
- .text2{
+}
+.text2{
 display: flex;
 margin: 5px;
- }
-
-.textimg{
-    display: flex;
-justify-content: space-around;
 }
+
+
 .chat{
 display: flex;
 background-color: rgb(207, 207, 207);
@@ -186,13 +183,15 @@ img{
     display: flex;
     margin: 5px;
 }
-.back{
- display: flex;
-background-color: white;
-width: 8vw;
-height: 18vh;
-margin: 5px;
-border-radius: 60px;
-justify-content: center;
-align-items: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
